@@ -1,0 +1,304 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0%;
+    background-color: rgb(8, 14, 14);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-attachment: scroll;
+    position: absolute;
+}
+.cont img{
+    width: 100%;
+}
+.cont0{
+    margin-top: 7%;
+}
+video{
+    height: 100vh;
+    width: 100%;
+}
+.bar{
+    height: 100px;
+    width: 45%;
+    background-color: transparent;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.h a:hover{
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.h a{
+    height: 35px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: 4px white solid;
+    color: whitesmoke;
+    background-color: black;
+    font-size: 8px;
+    font-family: 'Orbitron', sans-serif;
+    /* opacity: 0.8; */
+    margin-top: 4%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cont .s{
+    height: 170px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(167, 71, 36); */
+    background: linear-gradient(110.1deg, rgb(182, 92, 32) 18.9%, rgb(149, 62, 4) 90.7%);
+    position: absolute;
+    left: 100px;
+    top: 0%;
+    font-size: 60px;
+    font-family: 'Orbitron', sans-serif;
+    color: whitesmoke;
+}
+
+.contoo pre{
+    height: 250px;
+    width: 750px;
+    background-color: transparent;
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 23%;
+    margin-top: -3%;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+
+}
+.contoo .od{
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    color: black;
+    display: flex;
+    position: absolute;
+    left: 32%;
+    margin-top: 16%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+
+}
+.contoo .od1{
+    height: 50px;
+    width: 250px;
+    background-color: rgb(57, 57, 57);
+    color: white;
+    display: flex;
+    position: absolute;
+    left: 51%;
+    margin-top: 16%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.cont2 .mody{
+    height: 190px;
+    width: 410px;
+    background-color: rgb(183, 183, 183);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 63%;
+    margin-top: -53%;
+
+}
+.mody pre{
+    color: rgb(40, 40, 40);
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+}
+.modys{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.modys .eng1{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    left: 2%;
+    margin-top: 10%;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+}
+.modys .eng2{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    left: 24%;
+    margin-top: 10%;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+}
+.modys .eng3{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    left: 46%;
+    margin-top: 10%;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+}
+.modys .eng4{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    left: 68%;
+    margin-top: 10%;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+}
+.modytxt{
+    height: 530px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.modytxt pre{
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 7%;
+
+}
+
+
+.cont3 .modz{
+    height: 190px;
+    width: 410px;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 20%;
+    margin-top: -54%;
+
+}
+.modz pre{
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+}
+.modzs{
+    height: 750px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.modzs pre{
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+    padding-left: 33%;
+    padding-top: 3%;
+    color: white;
+    
+}
+.modzs .best{
+    height: 220px;
+    width: 450px;
+    background-color: rgb(32, 2, 42);
+    display: flex;
+    position: absolute;
+    left: 8%;
+}
+.modw{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.modw pre{
+    font-size: 80px;
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    margin-top: 10px;
+}
+.modw h1{
+    color: white;
+}
+.modwct{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 36%;
+    
+}
+.modwct p{
+    color: white;
+}
+.ctxt{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    
+}
+.cont5{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    margin-top: 10%;
+}
+.cont5 pre{
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+.ico img{
+    position: absolute;
+    left: 65%;
+    margin-top: 15px;
+}
+
+
+
